@@ -32,5 +32,3 @@ def checkout(cart, coupons)
   bill > 100 ? bill *= 0.9 : bill
   bill.round(2)
 end
-
-binding.pry
